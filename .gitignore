@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+env/
+build/
+dist/
+eggs/
+*.egg-info/
+
+# Julia
+*.jl.cov
+*.jl.*.cov
+*.jl.mem
+deps/deps.jl
+
+# Generated files
+**/lemma_dict.json
+
+# OS specific
+.DS_Store
+.vscode/
+.idea/
+
+# Environment
+.env
+.venv
+venv/
+ENV/
