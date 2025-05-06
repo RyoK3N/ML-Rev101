@@ -4,10 +4,20 @@ __pycache__/
 *$py.class
 .Python
 env/
-build/
-dist/
-eggs/
-*.egg-info/
+venv/
+.env
+.venv
+*.so
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
 
 # Julia
 *.jl.cov
@@ -18,13 +28,5 @@ deps/deps.jl
 # Generated files
 **/lemma_dict.json
 
-# OS specific
-.DS_Store
-.vscode/
-.idea/
-
 # Environment
-.env
-.venv
-venv/
 ENV/
