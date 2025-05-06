@@ -50,4 +50,3 @@ question = input("Enter a question: ")
 chain.invoke({"question": question})
 
 ### Pinecone Implementation ------ ->> 
-
