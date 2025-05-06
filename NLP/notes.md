@@ -24,6 +24,19 @@ Lemmatization is the process of reducing a word to its base form also known as l
 represention for a more accurate language analysis.
 
 ### N-grams
+N-grams are contiguous sequences of n items from a given sample of text or data.These items can be words, letters or base pairs according to the application.
+Its mostly used for language modelling and text generation.
+
+#### Types of N-grams :
+1. Unigrams : These are single words or tokens.
+2. Bigrams : These are two consecutive words or tokens.
+3. Trigrams : These are three consecutive words or tokens.
+4. N-grams : These are n consecutive words or tokens.
+
+#### N-gram language model :
+This model predicts the probability of a given n-gram within a sequence of words. It calculated by calculating the P(w|h) where w is the word and h is the history of words.
+
+
 
 
 ### TF-IDF
