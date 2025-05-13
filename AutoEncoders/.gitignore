@@ -1,0 +1,10 @@
+./qodo
+.DS_Store
+.venv
+.vscode
+.idea
+.pytest_cache
+.pytest_cache
+./logs
+./outputs
+./__pycache__
